@@ -1,0 +1,327 @@
+/**
+ * SardexPay for WooCommerce
+ *
+ * Copyright: © 2019-2024 Sardex S.p.A. (https://www.sardexpay.net/ - info@sardexpay.net)
+ *
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.sardex-admin-main {
+  font-family: "Catamaran", sans-serif;
+  background: #fff;
+  padding: 30px;
+  max-width: 900px;
+}
+
+.sardex-admin-main-inner {
+  max-width: 900px;
+}
+
+#sardex-logo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.sardex-admin-main #sardex-subscribe,
+#wc_sardex_bisoo_section-description p,
+#wc_sardex_b2b_section-description p {
+  font-size: 16px !important;
+  line-height: 20px;
+}
+
+.sardex-admin-main #sardex-subscribe a,
+#wc_sardex_bisoo_section-description p a {
+  color: #e72d7e;
+}
+
+.sardex-button-primary {
+  border: none;
+  position: relative;
+  height: 36px;
+  margin: 10px 0 0 0;
+  min-width: 64px;
+  padding: 0 16px;
+  display: inline-block;
+  font-family: "Catamaran", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  background-color: #4fa0af !important;
+  color: #fff !important;
+}
+
+.sardex-warning {
+  border-radius: 4px;
+  background-color: #d8edf7;
+  color: #4fa0af;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px;
+}
+
+.sardex-bisoo-wrapper {
+  padding: 30px 30px 0 20px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  background-color: #f9f9f9;
+}
+
+.sardex-bisoo-logo-wrapper {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.sardex-bisoo-logo-wrapper #sardex-bisoo-logo {
+  max-width: 260px;
+}
+
+#sardex-bisoo-wrapper-order-received .sardex-bisoo-logo-wrapper {
+  text-align: right;
+}
+
+#sardex-bisoo-row1 {
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.sardex-bisoo-blue-medium {
+  color: #19344b;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.sardex-bisoo-blue-big {
+  color: #19344b;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 47px;
+}
+
+.sardex-bisoo-grey-italic-small {
+  color: #4a4a4a;
+  font-size: 10px;
+  font-style: italic;
+  line-height: 14px;
+  margin-top: 30px;
+}
+
+#sardex-bisoo-row5 {
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+#sardex-bisoo-row6 {
+  color: #4a4a4a;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+#sardex-bisoo-row6 a {
+  color: #e72d7e;
+}
+
+.sardex-bisoo-thanks-p {
+  color: #4a4a4a;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.sardex-bisoo-card {
+  text-align: center;
+  padding: 0 0 15px 0;
+  margin: 0;
+}
+
+.sardex-bisoo-card img#bisoo-card {
+  max-width: 250px;
+}
+
+li.payment_method_sardex img,
+li.payment_method_sardex-credits img {
+  width: auto !important;
+  max-width: 100px !important;
+  height: 100% !important;
+  max-height: 39px !important;
+  padding: 4px;
+}
+
+/******* Order received / Paid *******/
+
+#sardex-bisoo-card-number {
+  width: 220px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  height: 38px;
+  padding: 10px 14px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4a4a4a;
+  letter-spacing: 0.5px;
+}
+
+#sardex-bisoo-card-number::placeholder {
+  color: #c8c8c8;
+  opacity: 1;
+}
+#sardex-bisoo-card-number:-ms-input-placeholder {
+  color: #c8c8c8;
+}
+#sardex-bisoo-card-number::-ms-input-placeholder {
+  color: #c8c8c8;
+}
+#sardex-bisoo-card-number::-webkit-input-placeholder {
+  color: #c8c8c8;
+}
+#sardex-bisoo-card-number::-moz-placeholder {
+  color: #c8c8c8;
+}
+
+#sardex-bisoo-get-recharge {
+  background-color: #0599a9;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.sardex-bisoo-order-reference {
+  color: #4a4a4a;
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 0.43px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.sardex-bisoo-order-reference .second {
+  margin-left: 20px;
+}
+.sardex-bisoo-order-completed-wrapper {
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+.sardex-bisoo-order-completed-wrapper .sardex-bisoo-cols-inner {
+  float: none;
+}
+.sardex-bisoo-order-completed-wrapper .sardex-bisoo-cols {
+  float: left;
+}
+.sardex-bisoo-cols-inner {
+  float: left;
+  padding: 30px 30px 30px 30px;
+}
+.woocommerce-order-received .sardex-bisoo-wrapper {
+  font-family: "Catamaran", sans-serif;
+}
+
+.woocommerce-order-received .sardex-bisoo-wrapper.col2-set {
+  width: 100%;
+}
+.woocommerce-order-received .sardex-bisoo-wrapper.col2-set .col-1,
+.woocommerce-order-received .sardex-bisoo-wrapper.col2-set .col-2,
+.woocommerce-order-pay .sardex-bisoo-wrapper.col2-set .col-1,
+.woocommerce-order-pay .sardex-bisoo-wrapper.col2-set .col-2 {
+  float: left;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.sardex-bisoo-order-completed-wrapper #col-1 {
+  width: 40%;
+}
+.sardex-bisoo-order-completed-wrapper #col-2 {
+  width: 60%;
+}
+.sardex-bisoo-order-completed-wrapper #col-1 .sardex-bisoo-card {
+  text-align: right;
+}
+
+.sardex-bisoo-order-completed-wrapper #col-1 .sardex-bisoo-card img {
+  max-width: 204px;
+}
+
+.sardex-bisoo-order-completed-wrapper #col-2.sardex-bisoo-cols {
+  border-left: 2px dashed #979797;
+}
+.sardex-bisoo-order-completed-wrapper #col-1 .sardex-bisoo-blue-big {
+  margin: 0;
+}
+.sardex-bisoo-order-completed-wrapper #col-1 .sardex-bisoo-grey-italic-small {
+  margin-right: 40px;
+}
+
+#sardex-bisoo-recharge-error-message {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  border: 1px solid #eed3d7;
+  border-radius: 4px;
+  background-color: #f2dede;
+
+  color: #b74b4b;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.sardex-bisoo-order-recharged .sardex-bisoo-logo-wrapper {
+  margin-bottom: 80px;
+}
+
+.sardex-bisoo-order-recharged .sardex-bisoo-order-reference {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#sardex-bisoo-wrapper-checkout {
+  font-family: "Catamaran", sans-serif;
+}
+
+#sardex-bisoo-wrapper-checkout.col2-set {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .sardex-bisoo-order-completed-wrapper #col-1,
+  .sardex-bisoo-order-completed-wrapper #col-2,
+  .sardex-bisoo-wrapper.col2-set .col-1,
+  .sardex-bisoo-wrapper.col2-set .col-2,
+  .woocommerce-order-received .sardex-bisoo-wrapper.col2-set .col-1,
+  .woocommerce-order-received .sardex-bisoo-wrapper.col2-set .col-2 {
+    float: none;
+    width: 100%;
+  }
+  .woocommerce-order-received .sardex-bisoo-wrapper.col2-set {
+    float: left;
+  }
+
+  .sardex-bisoo-order-completed-wrapper #col-2.sardex-bisoo-cols {
+    border-left: 0;
+    border-top: 2px dashed #979797;
+  }
+
+  .sardex-bisoo-grey-italic-small {
+    margin-top: 20px;
+  }
+}
